@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+    height:100vh;
+    background: url('/mercedes-amg-gt-red-car.png') grey;
+    /* background-image: url('/mercedes-amg-gt-red-car.png'), url('/logo.png');*/
+    background-size: contain;
+    background-repeat: no-repeat; 
+    /* mix-blend-mode: color-burn; */
+    /* filter: opacity(20px); */
+    /* filter: brightness(4rem); */
+    padding-top: 2rem;
+}
+form{
+    /* border: .2rem solid red; */
+    width: 50vw;
+    margin: 0 auto;
+    border: .2rem solid green;
+    border-radius: 50%;
+   /* background-color: white; */
+   /* mix-blend-mode: color-burn; */
+   /* filter: brightness(50%); */
+}
+.username, .email, .password{
+    /* border: .1rem solid green; */
+    width: 50%;
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.username>input[type="text"], .email>input[type="email"], .password>input[type="password"]{
+    /* outline: none; */
+    outline-style: groove;
+    outline-color: yellowgreen;
+    outline-width: .5rem;
+    height: 50px;
+    width:100%;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, ubuntu;
+    padding-left: 1rem;
+    color: blue;
+    
+}
+.buttons{
+    /* border: .2rem solid blue; */
+    width: 50%;
+    margin: 2rem auto;
+}
+.buttons>button:first-child{
+    margin-left: 2rem;
+}
+.buttons>button:first-child, .buttons>button:nth-child(2){
+    color: aliceblue;
+    background-color: green;
+    height: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, ubuntu;
+    font-size: 1rem;
+}
+.buttons>button:nth-child(2){
+    margin-left: 10rem;
+}

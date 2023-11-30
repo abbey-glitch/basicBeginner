@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+}
+#wrapper{
+    background-color: grey;
+}
+nav{
+    /* border-top: .2rem;
+    border-left: .2rem;
+    border-right: .2rem;
+    border-bottom:.2rem; */
+    /* border-style: ridge;
+    border-width: .2rem;
+    border-color: green; */
+    border: .2rem solid blue;
+    height:50vh;
+    width: 50vw;
+    background-color: green;
+}
+
+ul{
+    list-style-type: none;
+    border: .2rem solid red;
+}
+
+nav > .list_item{
+    color: red;
+}
+
+ul > li + li{
+    color:aquamarine;
+}
+
+ul > li:first-child{
+    color:palevioletred;
+}
+
+ul > li:nth-child(2){
+    background-color: goldenrod;
+}
+
+ul > li:nth-child(3){
+    background-color: hotpink;
+}
+
+ul > li:last-child{
+    background-color: lime;
+}
+
+nav > .list_item:hover{
+    background-color: cadetblue;
+    font-size: 2rem;
+    font-weight: 700;
+}

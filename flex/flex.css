@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+    background-color: grey;
+}
+nav{
+    border: .2rem solid red;
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+}

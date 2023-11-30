@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Table Element</title>
+    <!-- <style>
+        caption{
+            background-color: green;
+            font-size: xx-large;
+            color:aliceblue;
+        }
+    </style> -->
+</head>
+<body>
+    <div id="wrapper">
+        <table border="1" cellspacing="0" cellpadding="20">
+            <thead>
+                <caption>STAFF PAYROLL</caption>
+                <!-- <caption style="background-color: green;
+                font-size: xx-large;
+                color:aliceblue;">STAFF PAYROLL</caption> -->
+                <tr>
+                    <th>SN</th>
+                    <th>FirstName</th>
+                    <th>LastName</th>
+                    <th>Occupation</th>
+                    <th>Qualification</th>
+                    <th>Gender</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>1</th>
+                    <td colspan="2">John</td>
+                    <!-- <td>Doe</td> -->
+                    <td>Data science</td>
+                    <td>pgd, m.sc, B sc.</td>
+                    <td rowspan="2">male</td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <td>Mathew</td>
+                    <td>Michael</td>
+                    <td>UI & UX</td>
+                    <td>m.sc</td>
+                    <!-- <td>male</td> -->
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
